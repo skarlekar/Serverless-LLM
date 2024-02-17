@@ -1,0 +1,192 @@
+{
+    "nodes": [
+      {
+        "id": "Knowledge",
+        "type": "concept",
+        "group": 1
+      },
+      {
+        "id": "Teamwork",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "Trust",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Vulnerability",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Constructive Conflict",
+        "type": "concept",
+        "group": 5
+      },
+      {
+        "id": "Commitment",
+        "type": "concept",
+        "group": 6
+      },
+      {
+        "id": "Accountability",
+        "type": "concept",
+        "group": 7
+      },
+      {
+        "id": "Collective Results",
+        "type": "concept",
+        "group": 8
+      },
+      {
+        "id": "Time Together",
+        "type": "concept",
+        "group": 9
+      },
+      {
+        "id": "DecisionTech",
+        "type": "organization",
+        "group": 10
+      },
+      {
+        "id": "Kathryn Peterson",
+        "type": "person",
+        "group": 10
+      },
+      {
+        "id": "Carlos Amador",
+        "type": "person",
+        "group": 10
+      }
+    ],
+    "links": [
+      {
+        "source": "Knowledge",
+        "target": "Teamwork",
+        "label": "includes",
+        "strength": 0.1,
+        "rationale": "Teamwork is a key concept."
+      },
+      {
+        "source": "Teamwork",
+        "target": "Trust",
+        "label": "based on",
+        "strength": 0.9,
+        "rationale": "Trust is foundational for teamwork."
+      },
+      {
+        "source": "Trust",
+        "target": "Vulnerability",
+        "label": "fostered by",
+        "strength": 0.8,
+        "rationale": "Openness about weaknesses builds trust."
+      },
+      {
+        "source": "Vulnerability",
+        "target": "Constructive Conflict",
+        "label": "enables",
+        "strength": 0.7,
+        "rationale": "Vulnerability allows for healthy debates."
+      },
+      {
+        "source": "Constructive Conflict",
+        "target": "Commitment",
+        "label": "leads to",
+        "strength": 0.7,
+        "rationale": "Debates encourage decision commitment."
+      },
+      {
+        "source": "Commitment",
+        "target": "Accountability",
+        "label": "enhanced by",
+        "strength": 0.8,
+        "rationale": "Commitment fosters mutual accountability."
+      },
+      {
+        "source": "Accountability",
+        "target": "Collective Results",
+        "label": "aims at",
+        "strength": 0.9,
+        "rationale": "Accountability ensures focus on shared goals."
+      },
+      {
+        "source": "Collective Results",
+        "target": "Time Together",
+        "label": "supported by",
+        "strength": 0.6,
+        "rationale": "Shared time promotes unity."
+      },
+      {
+        "source": "Time Together",
+        "target": "Teamwork",
+        "label": "strengthens",
+        "strength": 0.7,
+        "rationale": "Time together reinforces teamwork."
+      },
+      {
+        "source": "Teamwork",
+        "target": "DecisionTech",
+        "label": "applied at",
+        "strength": 0.8,
+        "rationale": "DecisionTech's narrative demonstrates teamwork concepts."
+      },
+      {
+        "source": "Kathryn Peterson",
+        "target": "DecisionTech",
+        "label": "CEO of",
+        "strength": 1,
+        "rationale": "Kathryn Peterson is the CEO who prioritized teamwork."
+      },
+      {
+        "source": "Carlos Amador",
+        "target": "Trust",
+        "label": "example of",
+        "strength": 0.7,
+        "rationale": "His situation at DecisionTech exemplifies trust dynamics."
+      }
+    ],
+    "groups": [
+      {
+        "group_id": 1,
+        "rationale": "Overarching concept connecting all elements of the given context"
+      },
+      {
+        "group_id": 2,
+        "rationale": "Concepts related to teamwork and collaboration"
+      },
+      {
+        "group_id": 3,
+        "rationale": "Concepts related to trust and its importance in teamwork"
+      },
+      {
+        "group_id": 4,
+        "rationale": "Concepts related to vulnerability and openness"
+      },
+      {
+        "group_id": 5,
+        "rationale": "Concepts related to constructive conflict and its role in decision-making"
+      },
+      {
+        "group_id": 6,
+        "rationale": "Concepts related to commitment to team decisions"
+      },
+      {
+        "group_id": 7,
+        "rationale": "Concepts related to accountability within a team"
+      },
+      {
+        "group_id": 8,
+        "rationale": "Concepts related to focusing on shared results"
+      },
+      {
+        "group_id": 9,
+        "rationale": "Concepts related to spending time together for team efficiency"
+      },
+      {
+        "group_id": 10,
+        "rationale": "Entities related to the DecisionTech case study"
+      }
+    ]
+  }

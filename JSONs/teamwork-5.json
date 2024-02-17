@@ -1,0 +1,148 @@
+{
+    "nodes": [
+      {
+        "id": "Knowledge",
+        "type": "concept",
+        "group": 1
+      },
+      {
+        "id": "Good Teams",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "Vulnerability",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Trust",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Open Communication",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Constructive Conflict",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Decision Making",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Leadership Vulnerability",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Team Meetings",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Commitment",
+        "type": "concept",
+        "group": 5
+      }
+    ],
+    "links": [
+      {
+        "source": "Knowledge",
+        "target": "Good Teams",
+        "label": "defines",
+        "strength": 0.1,
+        "rationale": "Good teams as a fundamental concept."
+      },
+      {
+        "source": "Good Teams",
+        "target": "Vulnerability",
+        "label": "require",
+        "strength": 0.9,
+        "rationale": "Vulnerability is crucial for team cohesion."
+      },
+      {
+        "source": "Vulnerability",
+        "target": "Trust",
+        "label": "builds",
+        "strength": 0.9,
+        "rationale": "Vulnerability among team members leads to trust."
+      },
+      {
+        "source": "Trust",
+        "target": "Open Communication",
+        "label": "enables",
+        "strength": 0.8,
+        "rationale": "Trust facilitates open and honest communication."
+      },
+      {
+        "source": "Open Communication",
+        "target": "Constructive Conflict",
+        "label": "leads to",
+        "strength": 0.7,
+        "rationale": "Open communication fosters healthy debates."
+      },
+      {
+        "source": "Constructive Conflict",
+        "target": "Decision Making",
+        "label": "enhances",
+        "strength": 0.8,
+        "rationale": "Healthy conflict improves decision-making processes."
+      },
+      {
+        "source": "Leadership Vulnerability",
+        "target": "Vulnerability",
+        "label": "exemplifies",
+        "strength": 0.9,
+        "rationale": "Leaders displaying vulnerability set a precedent."
+      },
+      {
+        "source": "Team Meetings",
+        "target": "Open Communication",
+        "label": "facilitates",
+        "strength": 0.7,
+        "rationale": "Regular meetings encourage open dialogue."
+      },
+      {
+        "source": "Decision Making",
+        "target": "Commitment",
+        "label": "results in",
+        "strength": 0.8,
+        "rationale": "Effective decision-making fosters team commitment."
+      },
+      {
+        "source": "Knowledge",
+        "target": "Leadership Vulnerability",
+        "label": "highlights",
+        "strength": 0.1,
+        "rationale": "The importance of leadership in showing vulnerability."
+      }
+    ],
+    "groups": [
+      {
+        "group_id": 1,
+        "rationale": "Overarching concept connecting all elements of the given context."
+      },
+      {
+        "group_id": 2,
+        "rationale": "Characteristics of effective teams."
+      },
+      {
+        "group_id": 3,
+        "rationale": "The role of vulnerability and trust in team dynamics."
+      },
+      {
+        "group_id": 4,
+        "rationale": "Processes that benefit from vulnerability and trust."
+      },
+      {
+        "group_id": 5,
+        "rationale": "Outcomes of effective team processes."
+      }
+    ]
+  }

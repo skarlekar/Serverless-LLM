@@ -1,0 +1,193 @@
+{
+    "nodes": [
+      {
+        "id": "Knowledge",
+        "type": "concept",
+        "group": 1
+      },
+      {
+        "id": "Teamwork Advantage",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "Great Teams vs Dysfunctional Teams",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "Politics and Morale",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "Performance Focus",
+        "type": "concept",
+        "group": 2
+      },
+      {
+        "id": "DecisionTech Leadership",
+        "type": "concept",
+        "group": 3
+      },
+      {
+        "id": "Trust and Openness",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Vulnerability",
+        "type": "concept",
+        "group": 4
+      },
+      {
+        "id": "Constructive Conflict",
+        "type": "concept",
+        "group": 5
+      },
+      {
+        "id": "Decision Making and Commitment",
+        "type": "concept",
+        "group": 6
+      },
+      {
+        "id": "Peer Accountability",
+        "type": "concept",
+        "group": 7
+      },
+      {
+        "id": "Collective Results over Individual Goals",
+        "type": "concept",
+        "group": 8
+      },
+      {
+        "id": "Team Meetings",
+        "type": "concept",
+        "group": 9
+      }
+    ],
+    "links": [
+      {
+        "source": "Knowledge",
+        "target": "Teamwork Advantage",
+        "label": "emphasizes",
+        "strength": 0.1,
+        "rationale": "Teamwork as a foundational concept."
+      },
+      {
+        "source": "Teamwork Advantage",
+        "target": "Great Teams vs Dysfunctional Teams",
+        "label": "distinguishes",
+        "strength": 0.8,
+        "rationale": "Contrast between effective and ineffective teams."
+      },
+      {
+        "source": "Great Teams vs Dysfunctional Teams",
+        "target": "Politics and Morale",
+        "label": "affected by",
+        "strength": 0.7,
+        "rationale": "Impact of politics on team dynamics."
+      },
+      {
+        "source": "DecisionTech Leadership",
+        "target": "Trust and Openness",
+        "label": "necessitates",
+        "strength": 0.9,
+        "rationale": "Leadership's role in fostering trust."
+      },
+      {
+        "source": "Trust and Openness",
+        "target": "Vulnerability",
+        "label": "requires",
+        "strength": 0.9,
+        "rationale": "Trust built through sharing vulnerabilities."
+      },
+      {
+        "source": "Constructive Conflict",
+        "target": "Decision Making and Commitment",
+        "label": "leads to",
+        "strength": 0.8,
+        "rationale": "Healthy debate enhances decision-making."
+      },
+      {
+        "source": "Decision Making and Commitment",
+        "target": "Peer Accountability",
+        "label": "supported by",
+        "strength": 0.85,
+        "rationale": "Commitment reinforced through accountability."
+      },
+      {
+        "source": "Peer Accountability",
+        "target": "Collective Results over Individual Goals",
+        "label": "focuses on",
+        "strength": 0.9,
+        "rationale": "Team accountability emphasizes collective success."
+      },
+      {
+        "source": "Team Meetings",
+        "target": "Constructive Conflict",
+        "label": "facilitates",
+        "strength": 0.75,
+        "rationale": "Meetings provide a platform for open discussions."
+      },
+      {
+        "source": "Knowledge",
+        "target": "Performance Focus",
+        "label": "underlines",
+        "strength": 0.1,
+        "rationale": "The central role of performance in teamwork."
+      },
+      {
+        "source": "Knowledge",
+        "target": "DecisionTech Leadership",
+        "label": "includes",
+        "strength": 0.1,
+        "rationale": "Incorporating leadership lessons from DecisionTech."
+      },
+      {
+        "source": "Knowledge",
+        "target": "Team Meetings",
+        "label": "advocates",
+        "strength": 0.1,
+        "rationale": "Recommends regular team meetings for cohesion."
+      }
+    ],
+    "groups": [
+      {
+        "group_id": 1,
+        "rationale": "Overarching concept connecting all elements of the given context."
+      },
+      {
+        "group_id": 2,
+        "rationale": "Aspects of teamwork and its impact on performance."
+      },
+      {
+        "group_id": 3,
+        "rationale": "Leadership's role in shaping team dynamics."
+      },
+      {
+        "group_id": 4,
+        "rationale": "Foundations of trust within a team."
+      },
+      {
+        "group_id": 5,
+        "rationale": "The importance of conflict in team development."
+      },
+      {
+        "group_id": 6,
+        "rationale": "The process and significance of decision-making and commitment."
+      },
+      {
+        "group_id": 7,
+        "rationale": "Accountability among peers for team integrity."
+      },
+      {
+        "group_id": 8,
+        "rationale": "Prioritizing the team's success over individual achievements."
+      },
+      {
+        "group_id": 9,
+        "rationale": "The role of meetings in maintaining team unity and focus."
+      }
+    ]
+  }

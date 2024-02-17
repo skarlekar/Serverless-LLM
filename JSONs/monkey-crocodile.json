@@ -1,0 +1,35 @@
+{
+    "nodes": [
+      {"id": "Knowledge", "type": "concept", "group": 1},
+      {"id": "Monkey", "type": "character", "group": 2},
+      {"id": "Berry Tree", "type": "location", "group": 3},
+      {"id": "River Bank", "type": "location", "group": 3},
+      {"id": "Crocodile", "type": "character", "group": 2},
+      {"id": "Berries", "type": "object", "group": 4},
+      {"id": "Crocodile's Wife", "type": "character", "group": 2},
+      {"id": "Monkey's Heart", "type": "object", "group": 4},
+      {"id": "Friendship", "type": "concept", "group": 5},
+      {"id": "Trust", "type": "concept", "group": 5},
+      {"id": "Betrayal", "type": "concept", "group": 5}
+    ],
+    "links": [
+      {"source": "Monkey", "target": "Berry Tree", "label": "lives on", "strength": 0.9, "rationale": "Monkey's habitat"},
+      {"source": "Berry Tree", "target": "River Bank", "label": "located on", "strength": 0.8, "rationale": "Geographical positioning"},
+      {"source": "Monkey", "target": "Crocodile", "label": "befriends", "strength": 0.7, "rationale": "Initial friendship"},
+      {"source": "Monkey", "target": "Berries", "label": "gives", "strength": 0.8, "rationale": "Act of sharing"},
+      {"source": "Crocodile", "target": "Monkey's Heart", "label": "intends to deceive for", "strength": 0.6, "rationale": "Crocodile's internal conflict"},
+      {"source": "Crocodile", "target": "Betrayal", "label": "commits", "strength": 0.7, "rationale": "Action against monkey"},
+      {"source": "Monkey", "target": "Trust", "label": "loses", "strength": 0.6, "rationale": "Due to crocodile's betrayal"},
+      {"source": "Crocodile's Wife", "target": "Monkey's Heart", "label": "desires", "strength": 0.9, "rationale": "Main conflict"},
+      {"source": "Knowledge", "target": "Monkey", "label": "involves", "strength": 0.1, "rationale": "Connecting to overarching concept"},
+      {"source": "Knowledge", "target": "Crocodile", "label": "involves", "strength": 0.1, "rationale": "Connecting to overarching concept"}
+    ],
+    "groups": [
+      {"group_id": 1, "rationale": "Overarching concept connecting all elements of the given context"},
+      {"group_id": 2, "rationale": "Main characters involved in the narrative"},
+      {"group_id": 3, "rationale": "Key locations within the story"},
+      {"group_id": 4, "rationale": "Objects central to the storyline"},
+      {"group_id": 5, "rationale": "Concepts and themes underlying the narrative"}
+    ]
+  }
+  

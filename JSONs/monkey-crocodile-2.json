@@ -1,0 +1,31 @@
+{
+    "nodes": [
+      {"id": "Knowledge", "type": "concept", "group": 1},
+      {"id": "Monkey", "type": "character", "group": 2},
+      {"id": "Crocodile", "type": "character", "group": 2},
+      {"id": "Invitation to Dinner", "type": "event", "group": 3},
+      {"id": "Carrying Across the River", "type": "event", "group": 3},
+      {"id": "Revealing the Plan", "type": "event", "group": 3},
+      {"id": "Deception", "type": "concept", "group": 4},
+      {"id": "Trust", "type": "concept", "group": 4},
+      {"id": "Betrayal", "type": "concept", "group": 4}
+    ],
+    "links": [
+      {"source": "Crocodile", "target": "Monkey", "label": "tricks", "strength": 0.8, "rationale": "The crocodile's deceitful action"},
+      {"source": "Crocodile", "target": "Invitation to Dinner", "label": "uses", "strength": 0.7, "rationale": "Pretext for trickery"},
+      {"source": "Crocodile", "target": "Carrying Across the River", "label": "performs", "strength": 0.9, "rationale": "Act of carrying the monkey"},
+      {"source": "Crocodile", "target": "Revealing the Plan", "label": "reveals", "strength": 0.6, "rationale": "Moment of truth"},
+      {"source": "Monkey", "target": "Trust", "label": "holds", "strength": 0.7, "rationale": "Initial trust in the crocodile"},
+      {"source": "Monkey", "target": "Betrayal", "label": "experiences", "strength": 0.8, "rationale": "Result of crocodile's actions"},
+      {"source": "Invitation to Dinner", "target": "Deception", "label": "form of", "strength": 0.9, "rationale": "Tactic used in the deceit"},
+      {"source": "Knowledge", "target": "Monkey", "label": "involves", "strength": 0.1, "rationale": "Connecting to overarching concept"},
+      {"source": "Knowledge", "target": "Crocodile", "label": "involves", "strength": 0.1, "rationale": "Connecting to overarching concept"}
+    ],
+    "groups": [
+      {"group_id": 1, "rationale": "Overarching concept connecting all elements of the given context"},
+      {"group_id": 2, "rationale": "Main characters involved in the narrative"},
+      {"group_id": 3, "rationale": "Key events leading to the climax"},
+      {"group_id": 4, "rationale": "Underlying concepts and themes of the story"}
+    ]
+  }
+  
